@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dice-Roller!!!!!</title>
+    <title>Devs Inc Dice Roller</title>
     <link rel="stylesheet" href="images/style.css">
+    <script src="dice.js">
+            </script>
     </head>
 <body>
     <header>
-        <h2>This is the dice roller</h2>
+        <h2>Devs Inc Presents: The Dice Roller!!</h2>
     </header>
     <nav>
-        <p>User Instructions: Click a button to win!!</p>
+        <p>User Instructions: Get your roll on!!</p>
     </nav>
     <article>
         <img src="./images/d6.png" alt = "d6_dice_image" width= "200px">
-        <button class="button" id="d6">Roll a d6</button>
+        <button class="button" id="d6" onclick="diceRoll(1,6, 'roll6')">Roll a d6</button>
     </article>
+    <br>
+    <article>
+        <img src="./images/d12.png"  alt = "d12_dice_image" width= "200px">
+        <button class="button" id="d12" onclick="diceRoll(1,12, 'roll12')">Roll a d12</button>
+    </article>
+    <br>
     <footer>
         <p>COPYRIGHT INFO: Mine not yours</p>
     </footer>
-</body>
+    <br>
 </html>

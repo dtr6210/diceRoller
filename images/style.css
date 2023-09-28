@@ -3,23 +3,23 @@
         }*/
 
 header{
-    background-color: rgb(128, 128, 128);
-    padding: 3rem;
+    background-color: rgb(13, 0, 255);
+    padding: .5rem;
     text-align: center;
     font-size: 35px;
     color: white;
 }        
 
 nav {
-    background-color: rgba(128, 128, 128, 0.415);
-    padding: 1rem;
+    background-color: gray;
+    padding: -1rem;
     text-align: center;
     font-size: 25px;
     color: white;
 }
 
 nav p{
-color: white
+color: rgb(255, 255, 255)
 }
 footer {
     background-color: blueviolet;
@@ -28,7 +28,6 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -38,8 +37,12 @@ article {
     align-items: center;
     /* padding-top: 1rem; */
     /* padding-bottom: 1rem; */
-    padding: 4 rem 0 4 rem 0
+    padding: 10 rem 0 6 rem 0
 }
 article button{
-    height: 2rem;
+    height: 2.5rem;
 }
+body {
+    background-color: whitesmoke;
+}
+
